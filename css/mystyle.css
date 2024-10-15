@@ -5,10 +5,6 @@ header
     color: blue;
     background-color: aquamarine;
 }
-
-.arm{
-    text-align: center;
-}
 nav {
     position: relative;
     padding: 15px;
@@ -20,12 +16,10 @@ nav a {
     text-decoration: none;
     color: green;
 }
-
 nav a:active
 {
     color: blue;
 }
-
 .bottomMenu
 {
     position: relative;
@@ -40,7 +34,6 @@ nav a:active
 {
     margin-top: 45%;
 }
-
 ul.menu {
     list-style-type: none;  /* Вимкнути стандартні маркери списку */
     padding: 0;
@@ -57,49 +50,11 @@ ul.menu li {
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease; /* Плавна зміна фону і кольору */
 }
-
 /* Ефект при наведенні миші */
 ul.menu li:hover {
     background-color: #7cfc00;  /* Колір фону при наведенні */
 }
-
 /* Ефект при натисканні */
 ul.menu li:active {
     background-color: aquamarine;  /* Колір фону при натисканні */
 }
-
-
-
-
-
-
-
-
-
-
-
-/*ul.menu {
-    list-style-type: none;   Вимкнути стандартні маркери списку 
-    padding: 0;
-    margin: 0;
-    display: flex; /* Розташування елементів в рядок 
-    justify-content: center; 
-}
-ul.menu li {
-    background-color: #ffffff;  /* Початковий колір фону 
-    padding: 10px;
-    margin: 5px 0;
-    text-align: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Плавна зміна фону 
-}
-/* Ефект при наведенні миші *
-ul.menu li:hover {
-    background-color: #4bee5b;  /* Колір фону при наведенні 
-}
-
-/* Ефект при натисканні *
-ul.menu li:active {
-    background-color: aquamarine;  /* Колір фону при натисканні 
-    color: white;  
-}*/
