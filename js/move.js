@@ -45,5 +45,25 @@ document.addEventListener('DOMContentLoaded', () => {
         contactInfo.style.display = 'none'; // Приховуємо блок
         toggleButton.textContent = 'Показати контактну інформацію';
         }
-});
-});
+
+    });
+        
+            // Додамо анімацію для заголовка
+            let position = 0; // Початкова позиція
+            let direction = 1; // Напрям руху (1 вниз, -1 вгору)
+        
+            function animateHeader() {
+                position += direction; // Змінюємо позицію
+                header.style.transform = `translateY(${position}px)`; // Застосовуємо зміщення
+        
+                // Змінюємо напрямок, якщо досягли меж
+                if (position > 20 || position < 0) {
+                    direction *= -1;
+                }
+        
+                requestAnimationFrame(animateHeader); // Повторюємо анімацію
+            }
+        
+            // Запускаємо анімацію
+            animateHeader();
+        });
