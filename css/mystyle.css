@@ -34,6 +34,11 @@ nav a:active
 {
     margin-top: 45%;
 }
+
+.lik2
+{
+    margin-top: 2%;
+}
 ul.menu {
     list-style-type: none;  /* Вимкнути стандартні маркери списку */
     padding: 0;
@@ -58,3 +63,32 @@ ul.menu li:hover {
 ul.menu li:active {
     background-color: aquamarine;  /* Колір фону при натисканні */
 }
+
+.but {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50; /* Початковий колір кнопки */
+    border: none;
+    border-radius: 15px; /* Закруглені кути */
+    box-shadow: 0 9px #999; /* Тінь кнопки */
+    margin: 20px auto; /* Автоматичне вирівнювання по горизонталі */
+    display: block;
+  }
+  
+  .but:hover {
+    background-color: #3e8e41; /* Колір при наведенні */
+  }
+  
+  .but:active {
+    background-color: #3e8e41; /* Колір при натисканні */
+    box-shadow: 0 5px #666; /* Зменшена тінь */
+    transform: translateY(4px); /* Легка зміна положення */
+  }
+  
+
